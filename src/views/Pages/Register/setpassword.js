@@ -16,7 +16,7 @@ export default class SetPassword extends Component {
      }
     render() {
             return (
-                <div className='main'>
+                <div className='main-setpassword'>
                    <Header/>
                     <div className='card_div'>
                         <Card className='main-card'>

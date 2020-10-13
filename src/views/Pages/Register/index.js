@@ -14,7 +14,7 @@ export default class Register extends Component {
     }
     render() {
         return (
-            <div className='main'>
+            <div className='main-register-Page'>
                 <Header />
                 <div className='card_div'>
                     <Card className='main-card'>
