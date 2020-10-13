@@ -53,7 +53,7 @@ class DefaultLayout extends Component {
 
             </Suspense>
             <AppSidebarFooter />
-            <AppSidebarMinimizer />
+            {/* <AppSidebarMinimizer /> */}
           </AppSidebar>
           <main className="">
             {/* <AppBreadcrumb appRoutes={routes} router={router}/> */}
