@@ -1,0 +1,68 @@
+/* Header */
+.dash-header-ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 15px;
+}
+.dashboard-header {
+    padding: 14px;
+}
+.dash-header-button.btn.btn-secondary {
+    background-color: #32405b;
+    color: #fff;
+    border-radius: 9px;
+}
+.bell-img {
+    background-color: #fff;
+    width: 29px;
+    height: 32px;
+    border-radius: 30px;
+}
+.bell-icon {
+    margin-top: 4px;
+    margin-inline-start: 4px;
+}
+.user-name {
+    font-size: 12px;
+    font-family: sfbold;
+}
+.useremail {
+    font-size: 10px;
+    position: absolute;
+}
+.user-icon {
+    width: 30px;
+}
+.user-name {
+    margin-bottom: 1px;
+}
+/* end Header */
+
+/* table css */
+
+.btn.btn-trash {
+    background-color: #CCCCCC;
+    border-radius: 14px;
+    width: 24px;
+    padding: none !important;
+    line-height: 8px;
+    text-align: center;
+    margin-left: 6px;
+    height: 24px;
+
+}
+.dashbord-card.card {
+    border-radius: 11px;
+}
+.number-tr{
+border-bottom: 10px solid #ffff;
+}
+/* table css */
+.trash-icon {
+    line-height: 0;
+    text-align: center;
+    margin: 0 auto;
+        margin-left: auto;
+    display: block;
+    margin-left: -5px;
+}

@@ -3,7 +3,7 @@ import image from '../../assets/image/index'
 
 // import './style.css'
 // const Widget03 = lazy(() => import('../../views/Widgets/Widget03'));
-
+import DashBoard_Header from '../../component/Dashboard-Header/index'
 
 class Dashboard extends Component {
   loading = () => <div className="animated fadeIn pt-1 text-center">Loading...</div>
@@ -12,11 +12,8 @@ class Dashboard extends Component {
 
     return (
       <div>
-      
+        {/* <DashBoard_Header/> */}
       </div>
-
-
-
     );
   }
 }

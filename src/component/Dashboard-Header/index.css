@@ -1,0 +1,37 @@
+.dash-header-ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 15px;
+}
+.dashboard-header {
+    padding: 14px;
+}
+.dash-header-button.btn.btn-secondary {
+    background-color: #32405b;
+    color: #fff;
+    border-radius: 9px;
+}
+.bell-img {
+    background-color: #fff;
+    width: 29px;
+    height: 32px;
+    border-radius: 30px;
+}
+.bell-icon {
+    margin-top: 4px;
+    margin-inline-start: 4px;
+}
+.user-name {
+    font-size: 12px;
+    font-family: sfbold;
+}
+.useremail {
+    font-size: 10px;
+    position: absolute;
+}
+.user-icon {
+    width: 30px;
+}
+.user-name {
+    margin-bottom: 1px;
+}

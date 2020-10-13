@@ -1,0 +1,26 @@
+
+.btn.btn-trash {
+    background-color: #CCCCCC;
+    border-radius: 14px;
+    width: 24px;
+    padding: none !important;
+    height: 24px;
+    line-height: 8px;
+    text-align: center;
+    margin-left: 6px;
+}
+.trash-icon{
+    line-height: 0;
+    text-align: center;
+    margin: 0 auto;
+        margin-left: auto;
+    display: block;
+    margin-left: -5px;
+
+}
+.dashbord-card.card {
+    border-radius: 11px;
+}
+.number-tr{
+border-bottom: 10px solid #ffff;
+}
