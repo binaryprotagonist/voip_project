@@ -1,0 +1,12 @@
+.first_div {
+    margin: 0 auto;
+    width: 60%;
+    text-align: center;
+}
+.logo_blue {
+    width: 55px;
+}
+.header-card{
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+}

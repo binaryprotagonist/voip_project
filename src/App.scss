@@ -1,0 +1,77 @@
+// Styles
+// CoreUI Icons Set
+@import '~@coreui/icons/css/coreui-icons.css';
+// Import Flag Icons Set
+@import '~flag-icon-css/css/flag-icon.min.css';
+// Import Font Awesome Icons Set
+@import '~font-awesome/css/font-awesome.min.css';
+// Import Simple Line Icons Set
+@import '~simple-line-icons/css/simple-line-icons.css';
+// Import Main styles for this application
+@import './scss/style.scss';
+
+.table{
+    text-align: center
+}
+// a {
+//     color: #32405b !important;
+// }
+@font-face
+{
+    font-family: sfmedium;
+    src: url('./assets/fonts/SF-Compact-Display-Regular.otf')
+}
+
+@font-face
+{
+    font-family: sfbold;
+    src: url(./assets/fonts/SF-Compact-Text-Bold.otf);
+}
+
+.head_vopi
+{
+    font-family: sfbold;   
+    margin-bottom: 5% !important;
+}
+.btn-voip {
+    border-radius: 11px;
+    height: 50px;
+}
+.main-card{
+    border-radius: 11px;
+}
+.form-p-voip{
+    font-family: sfmedium;   
+    margin-bottom: 6% !important;
+}
+.voip-form-control {
+   
+    color: #5c6873;
+    background-color: #F3F3F3;
+    background-clip: padding-box;
+    border: 1px solid #e4e7ea;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    border: #F3F3F3;
+}
+.viop-form-label {
+    position: relative;
+    top: 7px;
+    white-space: nowrap;
+}
+.input-form {
+    background: #F3F3F3;
+    margin: 0 auto;
+    margin-top: 0px;
+    border-radius: 15px;
+    padding: 8px;
+    height: 52px;
+    text-align: left;
+}
+.form-control:focus {
+    color: none;
+    background-color: transparent;
+    border-color: none;
+    outline: 0;
+    box-shadow: none;
+}

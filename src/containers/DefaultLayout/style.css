@@ -1,0 +1,33 @@
+.swal2-cancel.btn.btn-danger {
+    margin-right: 38px !important;
+}
+.app-header {
+    position: relative;
+    flex-direction: row;
+    height: 20px !important;
+    padding: 0;
+    margin: 0;
+    background-color: #32405b !important;
+    border-bottom:none !important
+}
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    color: #fff;
+    background: #32405b !important;
+}
+.header-fixed .app-body {
+    margin-top: 20px !important;
+}
+.logo-main {
+    width: 95px;
+    display: block;
+    margin: 0 auto;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.logo {
+    width: 63px;
+    height: 30px;
+}
