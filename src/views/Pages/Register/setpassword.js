@@ -18,7 +18,7 @@ export default class SetPassword extends Component {
             return (
                 <div className='main-setpassword'>
                    <Header/>
-                    <div className='card_div'>
+                    <div className='card-password-div'>
                         <Card className='main-card'>
                             <CardBody>
                                 <h4 className='head_vopi' style={{ marginBottom: '20px' }}>Set a Password</h4>

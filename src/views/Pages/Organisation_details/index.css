@@ -3,12 +3,13 @@
     height: 100vh;
     max-width: 100%;
     background-size: cover;
+    overflow-y: hidden;
     }
     .card_div {
         width: 35%;
         margin: 0 auto;
         text-align: center;
-        margin-top: 7%;
+        /* margin-top: 7%; */
     }
     .card_div.card-body {
         flex: 1 1 auto;

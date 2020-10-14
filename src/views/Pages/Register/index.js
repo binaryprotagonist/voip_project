@@ -16,7 +16,7 @@ export default class Register extends Component {
         return (
             <div className='main-register-Page'>
                 <Header />
-                <div className='card_div'>
+                <div className='card_div-register'>
                     <Card className='main-card'>
                         <CardBody>
                             <h4 className='head_vopi'>Create Your Account</h4>
@@ -25,7 +25,7 @@ export default class Register extends Component {
                                 <Form>
                                     <FormGroup>
                                         <Row className='input-form'>
-                                            <Col xs="3" >
+                                             <Col xs="3" >
                                                 <Label className='viop-form-label'>Full Name:</Label>
                                             </Col>
                                             <Col xs="9">

@@ -4,7 +4,7 @@
     max-width: 100%;
     background-size: cover;
     }
-    .card_div {
+    .login-card_div {
         width: 29%;
         margin: 0 auto;
         text-align: center;
@@ -36,8 +36,9 @@
     }
     @media(max-width:767px)
     {
-        .card_div
+        .login-card_div
         {
             width: 95%;
+            margin-left: 2% !important;
         }
     }

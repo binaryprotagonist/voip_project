@@ -14,7 +14,7 @@ export default class Numbers extends Component {
                     <CardBody>
                         <table className='table table-borderless'>
                             <thead>
-                                <tr>
+                                <tr className='number-tr'>
                                     <th className="text-muted" >Name</th>
                                     <th className="text-muted" >Phone Number</th>
                                     <th className="text-muted" >Availability</th>

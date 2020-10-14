@@ -1,14 +1,14 @@
 .main-register-Page{
     background-image: url('../../../assets//image/23.png');
     height: 100vh;
-    max-width: 100%;
+    /* max-width: 100%; */
     background-size: cover;
     }
-    .card_div {
+    .card_div-register {
         width: 29%;
         margin: 0 auto;
         text-align: center;
-        margin-top: 10%;
+        margin-top: 6%;
         margin-left: 60%;
     }
     .card_div.card-body {
@@ -26,8 +26,9 @@
     
     @media(max-width:767px)
     {
-        .card_div
+        .card_div-register
         {
-            width: 95%;
+            width: 95% !important;
+            margin-left: 2% !important;
         }
     }

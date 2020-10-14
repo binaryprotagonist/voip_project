@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { Card, CardBody, Button, Form, FormGroup, Input, FormFeedback, Label, Row, Col, UncontrolledDropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap';
 import Images from '../../assets/image';
 import './index.css'
-export default class DashBoard_Header extends Component {
+export default class User_Header extends Component {
     constructor(){
         super()
         this.state={
@@ -17,13 +17,13 @@ export default class DashBoard_Header extends Component {
             <div className='dashboard-header'>
                 <Row>
                     <Col lg='7'>
-                        <h3 className='dash-header-title'>Numbers</h3>
+                        <h3 className='dash-header-title'>Users</h3>
                     </Col>
                     <Col lg='5'>
                         <ul className='dash-header-ul'>
                             <li className='dash-li' >
                                 <a href=''>
-                                    <Button className='dash-header-button'>+ Add Number</Button>
+                                    <Button className='dash-header-button'>+ Invite User</Button>
                                 </a>
                             </li>
                             <li className='dash-li'>

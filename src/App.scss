@@ -35,8 +35,7 @@
     color: #fff;
     background: none !important;
 }
-.head_vopi
-{
+.head_vopi{
     font-family: sfbold;   
     margin-bottom: 5% !important;
 }
@@ -60,6 +59,7 @@
     border-radius: 0.25rem;
     transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
     border: #F3F3F3;
+    margin-top: 1px;
 }
 .viop-form-label {
     position: relative;
@@ -81,4 +81,12 @@
     border-color: none;
     outline: 0;
     box-shadow: none;
+}
+   
+@media(max-width:767px)
+{
+    .card_div
+    {
+        width: 95% !important;
+    }
 }

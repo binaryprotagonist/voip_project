@@ -1,0 +1,23 @@
+
+.dash-board-icons {
+    width: 20px;
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.dashboard-titles{
+    color: #ffff;
+    display: inline-flex;
+    padding: 10px;
+    text-decoration: none !important;
+}
+
+.dashboard-titles:active {
+    background-color:#ffff;
+    color: #ffff !important;
+    
+  }
+  .icons-sidebar {
+    height: 16px;
+    margin-top: 5px;
+}

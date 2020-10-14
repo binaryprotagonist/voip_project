@@ -2,7 +2,7 @@ import React, { Component, Suspense } from 'react';
 import { Redirect, Route, Switch } from 'react-router-dom';
 import * as router from 'react-router-dom';
 import { Container } from 'reactstrap';
-
+import Sidebar from './Sidebar'
 import {
   AppAside,
   AppFooter,
@@ -45,12 +45,13 @@ class DefaultLayout extends Component {
           <AppSidebar fixed display="lg">
             <AppSidebarHeader />
             <AppSidebarForm />
-            <Suspense>
+            {/* <Suspense> */}
               <div className='logo-main'>
                 <img src={Images.logo_main} className='logo'/>
               </div>
-              <AppSidebarNav navConfig={navigation} {...this.props} router={router} />
-            </Suspense>
+              {/* <AppSidebarNav navConfig={navigation} {...this.props} router={router} /> */}
+           <Sidebar/>
+            {/* </Suspense> */}
             <AppSidebarFooter />
             {/* <AppSidebarMinimizer /> */}
           </AppSidebar>

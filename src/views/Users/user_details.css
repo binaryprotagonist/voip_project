@@ -1,0 +1,52 @@
+.detail-icon {
+    width: 74%;
+}
+.text-muted.detail-label {
+    font-size: 10px;
+}
+.detail-main{
+    padding: 5px;
+    margin-inline-start: 1px;
+}
+.userdetail-icon {
+    margin-top: 10px;
+}
+.user-detail.card {
+    border-radius: 10px;
+}
+.custom-select{
+    width: 50% !important;
+}
+.user-detail-btn.btn.btn-secondary {
+    margin-inline-start: 15px;
+    border-radius: 8px;
+    width: 23%;
+    font-size: 11px;
+    font-weight: bold;
+    height: 38px;
+    background-color: #f9f7f9;
+    border: none !important;
+}
+.user-detail-btn.btn.btn-secondary.active{
+    background-color: #32405b !important;
+}
+.user-details.card {
+    border-radius: 10px;
+    margin-bottom: none !important;
+}
+.detail-footer-btn.save.btn.btn-secondary {
+    width: 15%;
+    background-color: #32405b;
+    color: #fff;
+    border-radius: 9px;
+}
+.detail-footer-btn.btn.btn-secondary {
+    width: 15%;
+    background-color: #f9f7f9;
+    color: #32405b;
+    border-radius: 9px;
+    margin-inline-start: 9px;
+}
+.number-tr{
+    border-bottom: 10px solid #ffff;
+    }

@@ -23,4 +23,11 @@
 }
 .number-tr{
 border-bottom: 10px solid #ffff;
+text-align: left !important;
+}
+.td {
+    text-align: left !important;
+}
+.th {
+    text-align: left !important;
 }

@@ -1,9 +1,11 @@
-export default {
-  items: [
+import react from 'react'
+import Images from './assets/image/index'
+
+export  const items= [
     {
       name: 'Dashboard',
       url: '/dashboard',
-      icon: 'https://png.pngtree.com/png-clipart/20191120/original/pngtree-outline-home-icon-and-symbol-isolated-png-image_5045551.jpg',
+      icon: Images.home_icon,
       badge: {
         variant: 'info',
       },
@@ -11,25 +13,33 @@ export default {
     {
       name: 'Numbers',
       url: '/numbers',
-      icon: 'https://png.pngtree.com/png-clipart/20191120/original/pngtree-outline-home-icon-and-symbol-isolated-png-image_5045551.jpg',
+      icon: Images.numbers_icon,
       badge: {
         variant: 'info',
       },
     }, {
       name: 'Users',
       url: '/users',
-      icon: 'https://png.pngtree.com/png-clipart/20191120/original/pngtree-outline-home-icon-and-symbol-isolated-png-image_5045551.jpg',
-      badge: {
-        variant: 'info',
-      },
-    }, {
-      name: 'Activity Feeds',
-      url: '/activity_feeds',
-      icon: 'https://png.pngtree.com/png-clipart/20191120/original/pngtree-outline-home-icon-and-symbol-isolated-png-image_5045551.jpg',
+      icon: Images.users_icon,
       badge: {
         variant: 'info',
       },
     }, 
-   
-  ],
-};
+    {
+      name: 'Activity Feeds',
+      url: '/activity_feeds',
+      icon: Images.activity_icon,
+      badge: {
+        variant: 'info',
+      },
+    }, 
+    // {
+    //   name: 'User Detail',
+    //   url: '/user-detail',
+    //   icon: Images.activity_icon,
+    //   badge: {
+    //     variant: 'info',
+    //   },
+    // }, 
+    
+  ]
