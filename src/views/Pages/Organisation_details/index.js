@@ -27,7 +27,7 @@ export default class Organisation_Details extends Component {
                                             <Label className='viop-form-label'>Organisation Name:</Label>
                                         </Col>
                                         <Col xs="8">
-                                            <Input placeholder='Full Name' className='voip-form-control' />
+                                            <Input placeholder='Organisation Name' className='voip-form-control' />
                                         </Col>
                                     </Row>
                                     <FormFeedback>You will not be able to see this</FormFeedback>
@@ -38,7 +38,7 @@ export default class Organisation_Details extends Component {
                                             <Label className='viop-form-label'>Email Address:</Label>
                                         </Col>
                                         <Col xs="8">
-                                            <Input placeholder='Username' className='voip-form-control' />
+                                            <Input placeholder='Organisation Email Address' className='voip-form-control' />
                                         </Col>
                                     </Row>
                                     <FormFeedback>You will not be able to see this</FormFeedback>
@@ -49,7 +49,7 @@ export default class Organisation_Details extends Component {
                                             <Label className='viop-form-label'>Contact Number:</Label>
                                         </Col>
                                         <Col xs="8">
-                                            <Input placeholder='Number' className='voip-form-control' />
+                                            <Input placeholder='Organisation Contact Number' className='voip-form-control' />
                                         </Col>
                                     </Row>
                                     <FormFeedback>You will not be able to see this</FormFeedback>
@@ -60,7 +60,7 @@ export default class Organisation_Details extends Component {
                                             <Label className='viop-form-label'>Full Address:</Label>
                                         </Col>
                                         <Col xs="8">
-                                            <Input placeholder='Full Address' className='voip-form-control' />
+                                            <Input type='textarea' placeholder='Full Address' className='voip-form-control' />
                                         </Col>
                                     </Row>
                                     <FormFeedback>You will not be able to see this</FormFeedback>

@@ -1,6 +1,10 @@
 
 .dashboard-header {
     padding: 14px;
+    margin-top: 10px;
+}
+.dash-header-ul {
+    margin-inline-start: 30px;
 }
 .dash-header-button.btn.btn-secondary {
     background-color: #32405b;

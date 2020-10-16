@@ -15,6 +15,10 @@ const Images = {
   model_outcall_icon: require('./outgoing.png'),
   model_call_duration: require('./sdf.png'),
   User_detail_icon:require('./mg.png'),
-  inbox_icon:require('./inbox.png')
+  inbox_icon:require('./inbox.png'),
+  js_icon:require('./js.png'),
+  us_Flag :require('./Flag-United-States-of-America.png'),
+  Cross_icon:require('./cross.png')
+
 }
 export default Images;

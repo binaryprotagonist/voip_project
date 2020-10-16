@@ -42,3 +42,9 @@ element {
     position: relative;
     top: -11px;
 }
+.user-header.row {
+    margin-top: 10px;
+}
+ul.dash-header-ul {
+    margin-inline-start: 42px;
+}

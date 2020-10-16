@@ -1,0 +1,44 @@
+.add-number-card-header{
+    font-weight: bold;
+    line-height: 1.2;
+    margin-bottom: auto;
+}
+.add-number {
+    margin-bottom: 9px;
+}
+.btn.btn-add-number.btn-secondary {
+    width: 100%;
+    height: 44px;
+    border-radius: 10px;
+    background-color: #3F0E40;
+    color: #fff;
+}
+.addnumber-btn {
+    margin: 15px;
+        margin-top: 15px;
+    padding: 5px;
+    margin-top: 32px;
+}
+.add-number-btn-voip.btn.btn-secondary {
+    background-color: #32405b;
+    color: #fff;
+    width: 100%;
+    height: 40px;
+}
+.number-userdetail-icon {
+    /* margin-top: 10px; */
+    width: 51px;
+}
+.number-grid.col-lg-3 {
+    background: #f3f3f3;
+    border-radius: 11px;
+    display: flex;
+    margin: 7px;
+    max-width: 23% !important;
+    height: 55px;
+    padding: 5px;
+}
+.number-span {
+    font-weight: bold;
+    font-size: 17px;
+}

@@ -15,7 +15,7 @@ export default class Users extends Component {
         }
     }
     toggle = () => {
-        this.setState({ modal: !this.state.model })
+        this.setState({ modal: !this.state.modal })
     };
     onCallLogs = () => {
         this.setState({ callLogs_model: !this.state.callLogs_model })
@@ -70,10 +70,13 @@ export default class Users extends Component {
                     </CardBody>
                 </Card>
                 <div>
-                    <Modal isOpen={this.state.modal} fade={false} toggle={this.toggle} className={className}>
+                    <Modal isOpen={this.state.modal} fade={false} toggle={this.toggle} className={className} aria-labelledby="contained-modal-title-vcenter" centered className='call_logs_model' >
                         <ModalBody>
                             <span className='text-muted'>User</span><br />
                             <span><b>jamessmith@gmail.com</b></span>
+                            <button className='btn cancle-btn' onClick={this.toggle}>
+                                <img src={Images.Cross_icon} className='cancel-icon' />
+                            </button>
                             <Row className='model-main-div'>
                                 <Col className='model-div '>
                                     <div className='user-modal-icon'>
@@ -113,6 +116,9 @@ export default class Users extends Component {
                     <Modal isOpen={this.state.callLogs_model} fade={false} toggle={this.onCallLogs} size="lg" aria-labelledby="contained-modal-title-vcenter"
                         centered className='call_logs_model'>
                         <ModalBody>
+                        <button className='btn cancle-btn' onClick={this.onCallLogs}>
+                                <img src={Images.Cross_icon} className='cancel-icon' />
+                            </button>
                             <Call_logs />
                         </ModalBody>
                     </Modal>

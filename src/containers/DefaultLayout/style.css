@@ -1,6 +1,9 @@
 .swal2-cancel.btn.btn-danger {
     margin-right: 38px !important;
 }
+.main{
+    background-color: #F1EEF1 !important    ;
+}
 .app-header {
     position: relative;
     flex-direction: row;

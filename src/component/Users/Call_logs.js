@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { CallLogs_List } from '../../Store/call_logs'
+import './index.css'
 function Call_logs() {
     const [count, setCount] = useState(0);
     return (

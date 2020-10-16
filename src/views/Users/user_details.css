@@ -16,6 +16,8 @@
 }
 .custom-select{
     width: 50% !important;
+    height: 43px;
+    background: #f9f7f9;
 }
 .user-detail-btn.btn.btn-secondary {
     margin-inline-start: 15px;
@@ -34,18 +36,24 @@
     border-radius: 10px;
     margin-bottom: none !important;
 }
+
 .detail-footer-btn.save.btn.btn-secondary {
     width: 15%;
     background-color: #32405b;
     color: #fff;
-    border-radius: 9px;
+    border-radius: 12px;
+    height: 43px;
+    font-size: 17px;
 }
-.detail-footer-btn.btn.btn-secondary {
+
+button.detail-footer-btn.cancel.btn.btn-secondary{
     width: 15%;
-    background-color: #f9f7f9;
+    background-color: #f1eef1;
     color: #32405b;
     border-radius: 9px;
     margin-inline-start: 9px;
+    height: 43px;
+    border: 2px solid;
 }
 .number-tr{
     border-bottom: 10px solid #ffff;

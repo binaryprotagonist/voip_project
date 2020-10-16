@@ -8,7 +8,7 @@
 .dashboard-titles{
     color: #ffff;
     display: inline-flex;
-    padding: 10px;
+    padding: 9px;
     text-decoration: none !important;
 }
 
@@ -19,5 +19,5 @@
   }
   .icons-sidebar {
     height: 16px;
-    margin-top: 5px;
+    margin-top: 4px;
 }

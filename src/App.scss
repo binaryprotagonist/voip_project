@@ -13,9 +13,7 @@
 .table{
     text-align: center
 }
-// a {
-//     color: #32405b !important;
-// }
+
 @font-face
 {
     font-family: sfmedium;
@@ -25,7 +23,39 @@
 @font-face
 {
     font-family: sfbold;
-    src: url(./assets/fonts/SF-Compact-Text-Bold.otf);
+    src: url('./assets/fonts/SF-Compact-Text-Bold.otf')
+}
+@font-face
+{
+    font-family: semibold;
+    src: url('./assets/fonts/SF-Compact-Text-Semibold.otf')
+}
+h1,h2,h3,h4,h5,h6
+{
+    font-family: semibold;
+}
+label
+{
+    font-family: sfmedium;  
+}
+span
+{
+    font-family: sfmedium;
+}
+input{
+    font-family: sfmedium;
+}
+input::placeholder
+{
+    font-family: sfmedium;
+}
+a
+{
+    font-family: sfmedium;
+}
+ul li
+{
+    font-family: sfmedium;
 }
 .sidebar .nav-link.active {
     color: #fff;
@@ -59,7 +89,7 @@
     border-radius: 0.25rem;
     transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
     border: #F3F3F3;
-    margin-top: 1px;
+    margin-top: -5px;
 }
 .viop-form-label {
     position: relative;
@@ -82,7 +112,10 @@
     outline: 0;
     box-shadow: none;
 }
-   
+.a{
+    color: #32405b !important;
+    text-decoration: underline;
+}
 @media(max-width:767px)
 {
     .card_div

@@ -43,7 +43,9 @@
     "react-test-renderer": "^16.8.6",
     "react-to-print": "^2.6.3",
     "reactstrap": "^8.0.0",
+    "recompose": "^0.30.0",
     "simple-line-icons": "^2.4.1",
+    "styled-components": "^5.2.0",
     "sweetalert2": "^9.10.12",
     "validator": "^13.0.0"
   },

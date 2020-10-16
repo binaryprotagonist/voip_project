@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Card, CardBody, Col, Row, Button, Form, FormGroup, Input, FormFeedback, Label } from 'reactstrap'
+import { Card, CardBody, Col, Row, Button, Form, FormGroup, Input } from 'reactstrap'
 import Images from '../../assets/image'
 import User_Header from '../../component/User-Header/index'
 import './user_details.css'
@@ -12,7 +12,7 @@ export default class User_details extends Component {
                 </div>
                 <Card className='user-detail'>
                     <CardBody>
-                        <h6><b>User Name and Email</b></h6>
+                        <h5>User Name and Email</h5>
                         <Row className='detail-main'>
                             <Col className='row'>
                                 <div className='userdetail-icon'>
@@ -41,13 +41,12 @@ export default class User_details extends Component {
                                 </div>
                             </Col>
                             <Col></Col>
-                            {/* <Col></Col> */}
                         </Row>
                     </CardBody>
                 </Card>
                 <Card className='user-details' >
                     <CardBody>
-                        <h6><b>Availability</b></h6>
+                        <h5>Availability    </h5>
                         <Form >
                             <FormGroup>
                                 <span className='text-muted detail-label' >Timezone</span><br />
@@ -59,7 +58,7 @@ export default class User_details extends Component {
                                 </select>
                             </FormGroup>
                             <Row className='detail-btn'>
-                                <Button className='user-detail-btn '>ALWAYS OPENED</Button>
+                                <Button className='user-detail-btn ' style={{backgroundColor:'#32405b',color:'#ffff'}}>ALWAYS OPENED</Button>
                                 <Button className='user-detail-btn'>CUSTOM</Button>
                                 <Button className='user-detail-btn'>ALWAYS CLOSED</Button>
                             </Row>
@@ -68,7 +67,7 @@ export default class User_details extends Component {
                 </Card>
                 <div className='detail-footer'>
                     <Button className='detail-footer-btn save'>Save</Button>
-                    <Button className='detail-footer-btn'>Cancel</Button>
+                    <Button className='detail-footer-btn cancel'>Cancel</Button>
                 </div>
             </div>
         )

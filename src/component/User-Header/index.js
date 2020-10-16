@@ -15,7 +15,7 @@ export default class User_Header extends Component {
     render() {
         return (
             <div className='dashboard-header'>
-                <Row>
+                <Row className='user-header'>
                     <Col lg='7'>
                         <h3 className='dash-header-title'>Users</h3>
                     </Col>
