@@ -45,7 +45,9 @@ thead tr th {
     /*text-align: left;*/
 }
 
-tbody { border-top: 2px solid black; }
+tbody {
+     border-top: 2px solid black; 
+    }
 
 tbody td:last-child, thead th:last-child {
     border-right: none !important;

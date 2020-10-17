@@ -10,13 +10,21 @@
     display: inline-flex;
     padding: 9px;
     text-decoration: none !important;
+    /* border-left: 3px solid #fff; */
+}
+.dashboard-title-active{
+    color: #ffff;
+    display: inline-flex;
+    padding: 9px;
+    text-decoration: none !important;
+    border-left: 3px solid #fff;
 }
 
-.dashboard-titles:active {
+/* .dashboard-titles:active {
     background-color:#ffff;
     color: #ffff !important;
     
-  }
+  } */
   .icons-sidebar {
     height: 16px;
     margin-top: 4px;

@@ -13,6 +13,9 @@ export default class AddNumber extends Component {
     onContine = () => {
         this.setState({ modal: !this.state.modal })
     }
+    onClosemodal=()=>{
+
+    }
     render() {
         return (
             <div>
@@ -28,7 +31,6 @@ export default class AddNumber extends Component {
                     </FormGroup>
                     <FormGroup>
                         <div className='input-form'>
-                            {/* <Input placeholder='Name' className='voip-form-control' /> */}
                             <select id="mySelect" data-show-content="true" class="voip-form-control form-control">
                                 <option>Select your country</option>
                                 <option data-content="<i class='fa fa-cutlery'></i> Cutlery"></option>
@@ -47,15 +49,24 @@ export default class AddNumber extends Component {
                     centered className='call_logs_model'>
                     <ModalBody>
                         <div className='add-number'>
+                        <button className='btn cancle-btn' onClick={this.onContine}>
+                                <img src={Images.Cross_icon} className='cancel-icon' />
+                            </button>
                             <h5 className='add-number-card-header'>Add a New Number</h5>
+                           
                             <span className='text-muted'>please name your Number</span>
+                          
                         </div>
+                       
                         <Row>
                             <Col lg='3'>
                                 <FormGroup>
                                     <Label className='add-number-label'>Call Type</Label>
                                     <div className='input-form'>
-                                        <Input placeholder='Name' className='voip-form-control' />
+                                        <Input type='select' className='voip-form-control' >
+                                            <option>Local</option>
+                                            <option>International</option>
+                                        </Input>
                                     </div>
                                 </FormGroup>
                             </Col>
@@ -63,19 +74,22 @@ export default class AddNumber extends Component {
                                 <FormGroup>
                                     <Label className='add-number-label'>Search By</Label>
                                     <div className='input-form'>
-                                        <Input placeholder='Name' className='voip-form-control' />
+                                        <Input type='select' className='voip-form-control' >
+                                            <option>Number</option>
+                                            <option>Name</option>
+                                        </Input>
                                     </div>
                                 </FormGroup>
                             </Col>
-                            <Col lg='3'>
+                            <Col lg='4'>
                                 <FormGroup>
                                     <Label className='add-number-label'>Search By</Label>
                                     <div className='input-form'>
-                                        <Input placeholder='Name' className='voip-form-control' />
+                                        <Input placeholder='Enter a prefix or a number' className='voip-form-control' />
                                     </div>
                                 </FormGroup>
                             </Col>
-                            <Col lg='3'>
+                            <Col lg='2'>
                                 <div className='addnumber-btn'>
                                     <Button className='add-number-btn-voip'>Search</Button>
                                 </div>
@@ -90,24 +104,15 @@ export default class AddNumber extends Component {
                                                 <img src={Images.us_Flag} className='detail-icon' />
                                             </div>
                                             <div>
-                                                <span className='number-span'>+1234567890</span>
-                                                {/* <button className='btn number-grid-btn'>SMS</button>
-                                                <button type="button" className="btn btn-outline-dark number-grid-btn">VOICE</button> */}
+                                                <span className='number-span'>+1234567890</span><br />
+                                                <div className='row'>
+                                                    <div className='number-type-box'>SMS</div>
+                                                    <div className="number-type-box">VOICE</div>
+                                                </div>
                                             </div>
                                         </Col>
                                     )
                                 })}
-
-
-                                {/* <Col lg='3'>
-
-                                </Col>
-                                <Col lg='3'>
-
-                                </Col>
-                                <Col lg='3'>
-
-                                </Col> */}
                             </Row>
                         </div>
                     </ModalBody>

@@ -1,12 +1,12 @@
 import React, { Component } from 'react'
-import { Card, CardBody, Button, Form, Modal,ModalBody,FormGroup, Input, FormFeedback, Label, Row, Col, UncontrolledDropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap';
+import { Card, CardBody, Button, Form, Modal, ModalBody, FormGroup, Input, FormFeedback, Label, Row, Col, UncontrolledDropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap';
 import Images from '../../assets/image';
 import AddNumber from '../Numbers/AddNumber'
 import './index.css'
 export default class DashBoard_Header extends Component {
-    constructor(){
+    constructor() {
         super()
-        this.state={
+        this.state = {
             modal: false,
 
         }
@@ -24,9 +24,7 @@ export default class DashBoard_Header extends Component {
                     <Col lg='5'>
                         <ul className='dash-header-ul'>
                             <li className='dash-li' >
-                               
-                                    <Button className='dash-header-button'  onClick={this.toggle}>+ Add Number</Button>
-                               
+                                <Button className='dash-header-button' onClick={this.toggle}>+ Add Number</Button>
                             </li>
                             <li className='dash-li'>
                                 <a href=''>
@@ -55,11 +53,14 @@ export default class DashBoard_Header extends Component {
                     </Col>
                 </Row>
                 <Modal isOpen={this.state.modal} fade={false} toggle={this.toggle} size="sm" aria-labelledby="contained-modal-title-vcenter"
-                        centered className='call_logs_model'>
-                        <ModalBody>
-                            <AddNumber />
-                        </ModalBody>
-                    </Modal>
+                    centered className='call_logs_model'>
+                    <ModalBody>
+                    <button className='btn cancle-btn' onClick={this.toggle}>
+                                <img src={Images.Cross_icon} className='cancel-icon' />
+                            </button>
+                        <AddNumber />
+                    </ModalBody>
+                </Modal>
             </div>
         )
     }

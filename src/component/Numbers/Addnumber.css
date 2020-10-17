@@ -14,7 +14,6 @@
     color: #fff;
 }
 .addnumber-btn {
-    margin: 15px;
         margin-top: 15px;
     padding: 5px;
     margin-top: 32px;
@@ -38,7 +37,24 @@
     height: 55px;
     padding: 5px;
 }
-.number-span {
+/* .number-span {
     font-weight: bold;
     font-size: 17px;
+} */
+.number-type-box {
+    border: 1px solid;
+    font-size: 9px;
+    padding: 1px;
+    -webkit-margin-start: 10px;
+    margin-inline-start: 10px;
+    background: #ffff;
+    width: 35px;
+    height: 19px;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 2px;
+}
+button.btn.cancle-btn {
+    float: right;
+    position: inherit;
 }
