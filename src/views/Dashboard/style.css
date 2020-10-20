@@ -1,0 +1,28 @@
+.contact-icon {
+    background-color: #E6E6E6;
+    width: 36px;
+    height: 36px;
+    border-radius: 17px;
+    margin-inline-start: 10px;
+}
+
+.dashboard-card-body.card-body {
+    padding: 0.77rem !important;
+}
+.contact-img {
+    margin-inline-start: 8px;
+    height: 20px;
+    margin-top: 7px;
+}
+.total-user-card.card {
+    height: 60px;
+    border-radius: 15px;
+}
+.calls-card.card {
+    height: 78%;
+    border-radius: 15px;
+}
+.calls-record {
+    margin-inline-start: 32%;
+    margin-top: -18%;
+}

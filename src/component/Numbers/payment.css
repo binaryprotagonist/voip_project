@@ -1,0 +1,27 @@
+.form-control.payment {
+    background-color: #F3F3F3;
+    height: 40px;
+    border-radius: 10px;
+}
+.payment-form{
+    margin-top: 20px;
+}
+.btn.btn-submit {
+    background-color: #32405B;
+    width: 40%;
+    color: #fff;
+    height: 40px;
+    border-radius: 12px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.stripe-icon {
+    vertical-align: middle;
+    border-style: none;
+    width: 22px;
+    height: 20px;
+    margin-left: 14px;
+    margin-right: 10px;
+    margin-top: 2px;
+}
